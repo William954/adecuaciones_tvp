@@ -63,7 +63,6 @@
                         <div t-attf-title="Add as recipient and follower (reason: #{recipient.reason})">
                             <div class="custom-control custom-checkbox">
                                 <input type="checkbox"
-                                       value="False"
                                        class="custom-control-input"
                                        t-attf-id="o_composer_suggested_partners_p#{recipient_index}"
                                        t-att-checked="recipient.checked ? 'checked' : undefined"
