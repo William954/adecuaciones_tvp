@@ -58,12 +58,12 @@
                     </b>
                 </small>
                 <!-- List of followers -->
-                <div class="o_composer_suggested_partners">
+                <div class="o_composer_suggested_partners" invisible="1">
                     <t t-foreach='widget.suggestedPartners' t-as='recipient'>
                         <div t-attf-title="Add as recipient and follower (reason: #{recipient.reason})">
                             <div class="custom-control custom-checkbox">
                                 <input type="checkbox"
-                                       t-att-value="False"
+                                       value="False"
                                        class="custom-control-input"
                                        t-attf-id="o_composer_suggested_partners_p#{recipient_index}"
                                        t-att-checked="recipient.checked ? 'checked' : undefined"
