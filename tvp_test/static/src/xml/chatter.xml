@@ -35,7 +35,6 @@
 
     <!--
         Chatter composer
-
         @param {mail.composer.Chatter} widget
     -->
 
@@ -63,7 +62,7 @@
                         <div t-attf-title="Add as recipient and follower (reason: #{recipient.reason})">
                             <div class="custom-control custom-checkbox">
                                 <input type="checkbox"
-                                       t-att-value="False"
+                                       value="False"
                                        class="custom-control-input"
                                        t-attf-id="o_composer_suggested_partners_p#{recipient_index}"
                                        t-att-checked="recipient.checked ? 'checked' : undefined"
@@ -87,7 +86,6 @@
 
     <!--
         Chatter (mail_thread widget) buttons
-
         @param {boolean} [isMobile]
         @param {boolean} [logNoteButton]
         @param {boolean} [newMessageButton]
@@ -108,7 +106,6 @@
 
     <!--
         Chatter attachment paperclip button.
-
         @param {boolean} [displayCounter]
         @param {integer} [count]
     -->
