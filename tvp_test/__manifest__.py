@@ -28,6 +28,7 @@
         'views/views.xml',
         # 'views/templates.xml',
         'static/src/xml/chatter.xml',
+        'static/src/js/chatter.js'
     ],
     # only loaded in demonstration mode
     'demo': [
